@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Genera;
+  src: url(./fonts/Genera-AltLight.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to right, #ebe8f1, #d7efef);
+}

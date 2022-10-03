@@ -1,0 +1,23 @@
+.container-adapt {
+  @apply mx-auto max-w-7xl px-2 sm:px-6 lg:px-8;
+}
+
+.container-sm {
+  max-width: 640px;
+}
+
+.container-md {
+  max-width: 768px;
+}
+
+.container-lg {
+  max-width: 1024px;
+}
+
+.container-xl {
+  max-width: 1280px;
+}
+
+.container-2xl {
+  max-width: 1536px;
+}
