@@ -7,7 +7,7 @@ const ResumePage = () => {
     <div className="resume-page space-y-8">
       <div>
         <SectionTitle title="About" />
-        <ul className="my-4 space-y-2.5">
+        <ul className="mt-2 space-y-2.5">
           <li>
             Developer with <span className="font-bold">3 years</span> of
             experience
@@ -52,7 +52,7 @@ const ResumePage = () => {
       <div>
         <SectionTitle title="Soft Skills" />
         <SkillMeasure width="w-9/12" title="Adaptation" color="bg-sky-500" />
-        <SkillMeasure width="w-10/12" title="creativity" color="bg-red-400" />
+        <SkillMeasure width="w-10/12" title="Creativity" color="bg-red-400" />
         <SkillMeasure width="w-12/12" title="Team work" color="bg-indigo-400" />
         <SkillMeasure width="w-11/12" title="Curiosity" color="bg-stone-600" />
       </div>

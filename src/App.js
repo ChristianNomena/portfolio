@@ -7,6 +7,7 @@ import { BsFillCalendarMinusFill } from "react-icons/bs";
 import ContactInfo from "./components/ContactInfo";
 import MenuTitle from "./components/MenuTitle";
 import ResumePage from "./pages/ResumePage";
+import MobileDevelopmentPage from "./pages/MobileDevelopmentPage";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("resume");
@@ -108,22 +109,10 @@ const App = () => {
           <section className="project-info relative bg-white rounded-3xl pb-6 h-full">
             <MenuTitle setCurrentPage={setCurrentPage} />
             <div className="mx-6 my-2">
-              {currentPage === "resume" && ResumePage()}
-              {currentPage === "web" && (
-                <div>
-                  <div>I am the web</div>
-                </div>
-              )}
-              {currentPage === "mobile" && (
-                <div>
-                  <div>I am the mobile</div>
-                </div>
-              )}
-              {currentPage === "video-game" && (
-                <div>
-                  <div>I am the video-game</div>
-                </div>
-              )}
+              {currentPage === "resume" && <ResumePage />}
+              {currentPage === "web" && <div></div>}
+              {currentPage === "mobile" && <MobileDevelopmentPage />}
+              {currentPage === "video-game" && <div></div>}
             </div>
           </section>
         </div>
