@@ -13,17 +13,17 @@ const App = () => {
 
   return (
     <div className="container-adapt">
-      <div className="logo mt-4 grid grid-cols-12">
+      <div className="logo mt-4 grid grid-cols-12 sticky">
         <a
-          className="col-span-12 lg:col-span-4 lg:-ml-6 lg:text-center font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-300 to-blue-400"
+          className="col-span-12 lg:col-span-4 lg:-ml-6 lg:text-center font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-300 to-blue-400"
           href="/"
         >
           ChristianNomena
         </a>
       </div>
       <main className="mt-64 grid grid-cols-12 gap-8 justify-between mb-12">
-        <div className="sticky col-span-12 lg:col-span-4">
-          <section className="profile-info relative bg-white rounded-3xl pb-6">
+        <div className="col-span-12 lg:col-span-4">
+          <section className="profile-info bg-white rounded-3xl pb-6 sticky top-0">
             <div className="card-profile absolute -mt-40 left-1/2 transform -translate-x-1/2">
               <figure className="w-64 h-64">
                 <img
@@ -104,7 +104,7 @@ const App = () => {
             </center>
           </section>
         </div>
-        <div className="sticky col-span-12 lg:col-span-8">
+        <div className="col-span-12 lg:col-span-8">
           <section className="project-info relative bg-white rounded-3xl pb-6 h-full">
             <MenuTitle setCurrentPage={setCurrentPage} />
             <div className="mx-6 my-2">
